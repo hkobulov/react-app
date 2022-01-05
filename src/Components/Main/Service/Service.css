@@ -1,0 +1,161 @@
+.services {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+
+.services-heading {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-des {
+    width: 719px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 0;
+    text-align: center;
+}
+
+.services-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    margin: -35px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.services-item {
+    width: 320px;
+    margin: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.services-item:hover {
+    box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.services-item:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.services-link {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.services-item:nth-child(1) {
+    padding-top: 24px;
+    padding-right: 59px;
+    padding-bottom: 24px;
+    padding-left: 59px;
+}
+
+.website::before {
+    content: url('../../../Assets/Images/website-illustration.svg');
+    width: 202px;
+    height: 130px;
+}
+
+.services-item:nth-child(2) {
+    padding-top: 24px;
+    padding-right: 49px;
+    padding-bottom: 24px;
+    padding-left: 49px;
+}
+
+.bot::before {
+    content: url('../../../Assets/Images/bot-illustration.svg');
+    width: 222px;
+    height: 130px;
+}
+
+.services-item:nth-child(3) {
+    padding-top: 24px;
+    padding-right: 72px;
+    padding-bottom: 24px;
+    padding-left: 72px;
+}
+
+.smm::before {
+    content: url('../../../Assets/Images/smm-illustration.svg');
+    width: 177px;
+    height: 130px;
+}
+
+.services-item:nth-child(4) {
+    padding-top: 24px;
+    padding-right: 71px;
+    padding-bottom: 24px;
+    padding-left: 71px;
+}
+
+.design::before {
+    content: url('../../../Assets/Images/design-illustration.svg');
+    width: 179px;
+    height: 130px;
+}
+
+.services-item:nth-child(5) {
+    padding-top: 24px;
+    padding-right: 75px;
+    padding-bottom: 24px;
+    padding-left: 75px;
+}
+
+.crm::before {
+    content: url('../../../Assets/Images/crm-illustration.svg');
+    width: 169px;
+    height: 130px;
+}
+
+
+.menu-heading {
+    margin: 0;
+    margin-top: 16px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu-des {
+    margin: 0;
+    margin-top: 16px;
+    padding: 0;
+    text-align: center;
+}
+
+.set-menu {
+    width: 375px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.set-link {
+    margin-right: 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-menu {
+    color: #00BAFC;
+}

@@ -1,0 +1,97 @@
+.work {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.work-heading {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.work-des {
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 0;
+    text-align: center;
+}
+
+.work-list {
+    margin: 0;
+    margin: -10px;
+    margin-bottom: 48px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.work-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.work-menu {
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.work-item:nth-child(1)::before {
+    content: url('../../../Assets/Images/tablist.svg');
+    width: 300px;
+    height: 278px;
+}
+
+.work-item:nth-child(2)::before {
+    content: url('../../../Assets/Images/options.svg');
+    width: 300px;
+    height: 225px;
+}
+
+.work-item:nth-child(3)::before {
+    content: url('../../../Assets/Images/time-beginning.svg');
+    width: 300px;
+    height: 259px;
+}
+
+.work-item:nth-child(4)::before {
+    content: url('../../../Assets/Images/high-quality.svg');
+    width: 300px;
+    height: 162px;
+}
+
+.work-item:nth-child(5)::before {
+    content: url('../../../Assets/Images/support.svg');
+    width: 300px;
+    height: 232px;
+}
+
+.work-item:nth-child(2n)::before 
+{ order: 1 ;}
+
+.w-item-heading {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.w-item-des {
+    width: 493px;
+    margin: 0;
+    padding: 0;
+}
+
+.work-container .set-link {
+    display: block;
+    width: 167px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
